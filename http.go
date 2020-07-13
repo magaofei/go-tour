@@ -18,6 +18,9 @@ func httpGet() {
 	fmt.Println(string(body))
 
 	resp.Body.Close()
+        foo := 0
+        var str string = "test"
+        foo += 1
 }
 
 func main() {
