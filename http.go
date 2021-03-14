@@ -19,7 +19,8 @@ func httpGet() {
 
 	resp.Body.Close()
         foo := 0
-        var str string = "test"
+        str := "test"
+        print(str)
         foo += 1
 }
 
